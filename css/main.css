@@ -157,8 +157,8 @@ body {
 body {
   background: #fff;
   color: #555;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 1em;
+  font-family: 'Lato', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-size: 0.8em;
   line-height: 2;
 }
 @media (max-width: 991px) {
@@ -173,7 +173,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Lato', 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 20px 0 15px;
@@ -395,7 +395,7 @@ pre,
 }
 pre,
 code {
-  font-family: consolas, Menlo, "PingFang SC", "Microsoft YaHei", monospace;
+  font-family: consolas, Menlo, 'PingFang SC', 'Microsoft YaHei', monospace;
 }
 code {
   overflow-wrap: break-word;
@@ -986,7 +986,7 @@ pre .javascript .function {
 .site-title {
   cursor: pointer;
   display: inline-block;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Lato', 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   line-height: 1.5;
@@ -1147,7 +1147,7 @@ pre .javascript .function {
 }
 .site-description {
   color: #999;
-  font-size: 1em;
+  font-size: 0.8em;
   margin-top: 5px;
   text-align: center;
 }
@@ -1165,7 +1165,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ffffc1;
+  background: #ff59ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1530,7 +1530,7 @@ pre .javascript .function {
 .post-body {
   overflow-wrap: break-word;
   word-wrap: break-word;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Lato', 'PingFang SC', 'Microsoft YaHei', sans-serif;
 }
 @media (min-width: 1200px) {
   .post-body {
@@ -1661,7 +1661,7 @@ pre .javascript .function {
   background: #222;
 }
 .posts-collapse .post-title {
-  font-size: 1em;
+  font-size: 0.8em;
   font-weight: normal;
   line-height: inherit;
   margin-bottom: 0;
@@ -1816,7 +1816,7 @@ article:last-child .post-eof {
 }
 .posts-expand .post-meta {
   color: #999;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Lato', 'PingFang SC', 'Microsoft YaHei', sans-serif;
   margin: 3px 0 60px 0;
   text-align: center;
 }
@@ -2277,14 +2277,16 @@ embed {
 .menu-item-active a,
 .menu .menu-item a:hover,
 .menu .menu-item span.exturl:hover {
-  border-bottom-color: #222;
-  color: #222;
+  border-bottom-color: #fff;
+  color: #fff;
 }
 @media (max-width: 767px) {
   .menu-item-active a,
   .menu .menu-item a:hover,
   .menu .menu-item span.exturl:hover {
-    border-bottom: 1px dotted #ddd;
+    border-bottom: 1px dotted #222;
+    border-bottom-color: #222;
+    color: #222;
   }
 }
 @media (max-width: 767px) {
@@ -2307,7 +2309,7 @@ embed {
 @media (max-width: 767px) {
   .menu .menu-item .badge {
     float: right;
-    margin: 0.35em 0 0 0;
+    margin: 0.35em 0 0;
   }
 }
 @media (max-width: 767px) {
