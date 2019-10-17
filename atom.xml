@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://WchHxl.github.io/"/>
-  <updated>2019-09-27T03:00:30.028Z</updated>
+  <updated>2019-10-16T10:12:47.143Z</updated>
   <id>https://WchHxl.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo建站(一)</title>
+    <link href="https://WchHxl.github.io/2019/09/30/hexo%E5%BB%BA%E7%AB%99-%E4%B8%80/"/>
+    <id>https://WchHxl.github.io/2019/09/30/hexo建站-一/</id>
+    <published>2019-09-30T09:55:06.000Z</published>
+    <updated>2019-10-16T10:12:47.143Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="起源"><a href="#起源" class="headerlink" title="起源"></a>起源</h2><blockquote><p>搭建自己的博客这个想法在 2018 年就萌生了，不是我没有付诸行动，相反，嘿嘿，我还真的搭建了，不过也出现了新的问题——新鲜期到了…之后就是漫长的不更新 and 不更新。</p></blockquote><p>Q1:现在为啥又要搭建了，以前的 blog 为啥不捡起来！<br>A1:本来是要捡起来继续更新的，奈何家里的笔记本格式化了…嘿嘿<del>嘿嘿嘿</del>(借口.png)</p><a id="more"></a><p>Q2:你这次能不能坚持下来？<br>A2:难说<del>工作太忙(懒</del>)</p><p>Q3:这个博客遇到什么问题了吗？<br>A3:没有遇到！我不会遇到问题，我是无敌的~（=￣ ω ￣=）。开个玩笑!其实现在 hexo&amp;githubpage 建站已经很多博客文章来介绍了，包括美化到绑定域名都很详细,所以大问题是没有的。我在这也总结一下我的建站过程。</p><h2 id="搭建经历"><a href="#搭建经历" class="headerlink" title="搭建经历"></a>搭建经历</h2><blockquote><p>因为我之前是搭建过一次的，但是 githubpage 搭建博客的缺点就是你的项目只能有一个 youname.github.io 的项目来做博客。所以我其实还是用了以前的博客项目。</p></blockquote><p>1.github 创建一个项目，名字为固定格式：<code>youname.github.io</code>。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;起源&quot;&gt;&lt;a href=&quot;#起源&quot; class=&quot;headerlink&quot; title=&quot;起源&quot;&gt;&lt;/a&gt;起源&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;搭建自己的博客这个想法在 2018 年就萌生了，不是我没有付诸行动，相反，嘿嘿，我还真的搭建了，不过也出现了新的问题——新鲜期到了…之后就是漫长的不更新 and 不更新。&lt;/p&gt;
+&lt;/blockquote&gt;&lt;p&gt;Q1:现在为啥又要搭建了，以前的 blog 为啥不捡起来！&lt;br&gt;A1:本来是要捡起来继续更新的，奈何家里的笔记本格式化了…嘿嘿&lt;del&gt;嘿嘿嘿&lt;/del&gt;(借口.png)&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="hexo, 建站, blog" scheme="https://WchHxl.github.io/tags/hexo-%E5%BB%BA%E7%AB%99-blog/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
