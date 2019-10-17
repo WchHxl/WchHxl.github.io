@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://WchHxl.github.io/"/>
-  <updated>2019-10-16T10:12:47.143Z</updated>
+  <updated>2019-10-17T03:59:48.984Z</updated>
   <id>https://WchHxl.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://WchHxl.github.io/2019/09/30/hexo%E5%BB%BA%E7%AB%99-%E4%B8%80/"/>
     <id>https://WchHxl.github.io/2019/09/30/hexo建站-一/</id>
     <published>2019-09-30T09:55:06.000Z</published>
-    <updated>2019-10-16T10:12:47.143Z</updated>
+    <updated>2019-10-17T03:59:48.984Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="起源"><a href="#起源" class="headerlink" title="起源"></a>起源</h2><blockquote><p>搭建自己的博客这个想法在 2018 年就萌生了，不是我没有付诸行动，相反，嘿嘿，我还真的搭建了，不过也出现了新的问题——新鲜期到了…之后就是漫长的不更新 and 不更新。</p></blockquote><p>Q1:现在为啥又要搭建了，以前的 blog 为啥不捡起来！<br>A1:本来是要捡起来继续更新的，奈何家里的笔记本格式化了…嘿嘿<del>嘿嘿嘿</del>(借口.png)</p><a id="more"></a><p>Q2:你这次能不能坚持下来？<br>A2:难说<del>工作太忙(懒</del>)</p><p>Q3:这个博客遇到什么问题了吗？<br>A3:没有遇到！我不会遇到问题，我是无敌的~（=￣ ω ￣=）。开个玩笑!其实现在 hexo&amp;githubpage 建站已经很多博客文章来介绍了，包括美化到绑定域名都很详细,所以大问题是没有的。我在这也总结一下我的建站过程。</p><h2 id="搭建经历"><a href="#搭建经历" class="headerlink" title="搭建经历"></a>搭建经历</h2><blockquote><p>因为我之前是搭建过一次的，但是 githubpage 搭建博客的缺点就是你的项目只能有一个 youname.github.io 的项目来做博客。所以我其实还是用了以前的博客项目。</p></blockquote><p>1.github 创建一个项目，名字为固定格式：<code>youname.github.io</code>。</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="起源"><a href="#起源" class="headerlink" title="起源"></a>起源</h2><blockquote><p>搭建自己的博客这个想法在 2018 年就萌生了，不是我没有付诸行动，相反，嘿嘿，我还真的搭建了，不过也出现了新的问题——新鲜期到了…之后就是漫长的不更新 and 不更新。</p></blockquote><p>Q1:现在为啥又要搭建了，以前的 blog 为啥不捡起来！<br>A1:本来是要捡起来继续更新的，奈何家里的笔记本格式化了…嘿嘿<del>嘿嘿嘿</del>(借口.png)</p><a id="more"></a><p>Q2:你这次能不能坚持下来？<br>A2:难说<del>工作太忙(懒</del>)</p><p>Q3:这个博客遇到什么问题了吗？<br>A3:没有遇到！我不会遇到问题，我是无敌的~（=￣ ω ￣=）。开个玩笑!其实现在 hexo&amp;githubpage 建站已经很多博客文章来介绍了，包括美化到绑定域名都很详细,所以大问题是没有的。我在这也总结一下我的建站过程。</p><h2 id="搭建经历"><a href="#搭建经历" class="headerlink" title="搭建经历"></a>搭建经历</h2><blockquote><p>因为我之前是搭建过一次的，但是 githubpage 搭建博客的缺点就是你的项目只能有一个 youname.github.io 的项目来做博客。所以我其实还是用了以前的博客项目。</p></blockquote><p>1.github 创建一个项目，名字为固定格式：<code>youname.github.io</code>。PS:github 的 SSHKEY 记得配置…不懂的点<a href="https://www.baidu.com/" target="_blank" rel="noopener">这里</a><br>2.打开<a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">hexo</a>官网,按照上面的说法一顿操作,安装 hexo-cli.</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init &lt;folder&gt;</span><br><span class="line">$ cd &lt;folder&gt;</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure><p>3.ok 你搭建好了 hexo！！！好棒哦 ✿✿ ヽ(°▽°)ノ ✿</p><hr><p>接下来就是修改 hexo 的配置文件<a href="https://hexo.io/zh-cn/docs/configuration" target="_blank" rel="noopener">_config.yml</a></p><p>1.将本地文件关联到 github</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git #推送方式</span><br><span class="line">  repository: https://github.com/BrightLoong/BrightLoong.github.io.git #你的推送地址</span><br><span class="line">  branch: master #你要推送的分支</span><br></pre></td></tr></table></figure><p>2.  配置好之后使用以下命令将服务部署到 github 上。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo g</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure><p>PS: 如果报错<code>ERROR Deployer not found : github</code>,输入以下命令。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure><p>然后重新<code>hexo d</code>,成功则部署成功,网址输入<code>youname.github.io</code>就可以查看了。</p><hr><p>剩下的就是配置自己的主题了，我用的是<a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="noopener">next</a></p><p>这里大家自己百度吧，我贴几个我看的，也都不难，就不写了，新版的有些配置不太一样，但是还是可以借鉴的，有问题可以评论问我。<br>1.<a href="https://segmentfault.com/a/1190000009544924#articleHeader5" target="_blank" rel="noopener">思否 Moorez</a><br>2.<a href="https://segmentfault.com/a/1190000009009697#articleHeader10" target="_blank" rel="noopener">思否 sherry</a><br>顺带发一下下小姐姐的<a href="http://cherryblog.site/" target="_blank" rel="noopener">博客地址</a>,已经改成了自己写的。很简单很喜欢系列。</p><p>这两篇基本就够了。最后贴出一个<a href="https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&ch=&tn=baidu&bar=&wd=hexo%E9%85%8D%E7%BD%AE&oq=hexo%2520next&rsv_pq=a8a8675b0004bbe4&rsv_t=128e9LQfLOK79wLoq0YKPeYY5OfFJyKVGf35WiUGL6j4qzlE4bDgEMafsS8&rqlang=cn&rsv_enter=1&rsv_dl=tb&inputT=5072" target="_blank" rel="noopener">神奇的网站</a>。</p><p>其实这个自己看着 swig,对着 styl 文件都能修改,只是借鉴起来比自己看的快很多。感兴趣就可以自己看看。<br>PS:不懂问我哈(反正我也不会看 ಠᴗಠ)</p>]]></content>
     
     <summary type="html">
     
@@ -34,8 +34,16 @@
     </summary>
     
     
+      <category term="hexo" scheme="https://WchHxl.github.io/categories/hexo/"/>
     
-      <category term="hexo, 建站, blog" scheme="https://WchHxl.github.io/tags/hexo-%E5%BB%BA%E7%AB%99-blog/"/>
+      <category term="config" scheme="https://WchHxl.github.io/categories/hexo/config/"/>
+    
+      <category term="tags" scheme="https://WchHxl.github.io/categories/hexo/config/tags/"/>
+    
+    
+      <category term="hexo" scheme="https://WchHxl.github.io/tags/hexo/"/>
+    
+      <category term="tags" scheme="https://WchHxl.github.io/tags/tags/"/>
     
   </entry>
   
